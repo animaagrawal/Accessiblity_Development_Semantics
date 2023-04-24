@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Feedback Form - Coffee & Books</title>
+		<link rel="stylesheet" href="../css/Css.css">
+		<link rel="stylesheet" href="../css/header.css">
+		<link rel="stylesheet" href="../css/Footer.css">
+		<link rel="stylesheet" href="../css/FeedbackForm.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="logo">
+				<img class="logo" src="logo.jfif" alt="Coffee & Books">
+			</div>
+			<div class="brand">
+				<h1>Coffee & Books</h1>
+			</div>
+
+			<nav>
+				<ul>
+					<li class="active" aria-current="true">
+						<a href="home.html">Home</a>
+					</li>
+					<li>
+						<a href="MemberList.html">Member List</a>
+					</li>
+					<li>
+						<a href="BookRegistrationForm.html">Book Registration</a>
+					</li>
+					<li>
+						<a href="FeedbackForm.html">Send Feedback</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h2>Feedback for <span>Coffee & Books</span>!</h2>
+			<p>Please fill out the below form for submitting your valuable feedback with us!</p>
+			<form>
+				<div class="formfield">
+					<label for="name">Name</label><br>
+					<input id="name" type="text" placeholder="name">
+					<p aria-live="polite" role="alert"></p>
+				</div>
+
+				<div class="formfield">
+					<label for="subject">Subject</label><br>
+					<input id="subject" type="text">
+					<p aria-live="polite" role="alert"></p>
+				</div>
+
+				<div class="formfield">
+					<label for="message">Your Message</label><br>
+					<textarea id="message"></textarea>
+					<p aria-live="polite" role="alert"></p>
+				</div>
+
+				<button type="submit">Submit</button>
+			</form>
+		</main>
+		<footer>
+			<div class="social-media-links">
+				<h2>Connect With Us</h2>
+				<div class="links">
+				<div>
+					<a href="#">Instagram</a>
+				</div>
+				<div>
+					<a href="#">Facebook</a>
+				</div>
+				<div>
+					<a href="#">Twitter</a>
+				</div>
+				<div>
+					<a href="#">YouTube</a>
+				</div>
+				</div>
+			</div>
+			
+			<div class="copywrite">
+				© Copyright 2022, Coffee & Books. All Rights Reserved
+				<br>
+				Built and maintained by Team <a>C&B</a>
+
+				<div class="terms">
+					<ul>
+						<li>
+							<div class="link">
+								Terms of Use
+							</div>
+						</li>
+						<li>
+							<div class="link">
+								Privacy Policy
+							</div>
+						</li>
+						<li>
+							<div class="link">
+								Careers
+							</div>
+						</li>
+						<li>
+							<div class="link">
+								Accessibility Statement
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<script src="../JS/JS.js"></script>
+		<script src="../Fixing/Footer-Fixes.js"></script>
+		<script src="../js/validation.js"></script>
+	</body>
+</html>

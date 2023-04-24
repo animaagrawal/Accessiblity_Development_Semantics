@@ -1,0 +1,42 @@
+footer, .footer {
+	margin-top: 2%;
+	display: inline-block;
+	width: 80%
+}
+
+footer .social-media-links, .footer .social-media-links, footer .copywrite, .footer .copywrite {
+	display: inline-block;
+	color: white;
+}
+
+footer .social-media-links, .footer .social-media-links {
+	margin: 3% 0% 5% 8%;
+	padding-left: 4%;
+	border-left: 5px solid white;
+}
+
+footer h2, .footer h2 {
+	font-size: 200%;
+}
+
+footer .copywrite, .footer .copywrite {
+	margin: 0% 0% 0% 10%;
+}
+
+a {
+	color: #FFF;
+	text-decoration-line: underline;
+}
+
+.terms ul {
+	list-style-type: none;
+}
+
+.terms li, .terms div {
+	display: inline;
+}
+
+.terms div {
+	color: white;
+	text-decoration-line: underline;
+}

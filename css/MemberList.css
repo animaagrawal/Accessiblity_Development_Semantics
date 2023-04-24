@@ -1,0 +1,25 @@
+table, th, td {
+	border: 1px solid;
+	font-align: center;
+}
+
+table {
+	display: table;
+	width: 60%;
+	border-collapse: collapse;
+}
+
+thead th {
+background:black;
+color:white;
+	font-size: 150%;
+}
+
+th, td {
+	height: auto;
+	width: 20%;
+	padding: 1%;
+}
+
+td {
+}

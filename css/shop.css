@@ -1,0 +1,56 @@
+h2 {
+	font-size: 350%;
+	margin: 3% 0% 1% 5%;
+	padding: 0%;
+}
+
+h2 + p {
+	font-size: 200%;
+	margin: 0% 0% 1% 5%;
+	padding: 0%;
+}
+
+.products {
+	display: inline-block;
+	width: 70%;
+	height: auto;
+	margin: 2% 0% 0% 4%;
+}
+
+.left, .right {
+	display: inline-block;
+	width: 48%;
+	padding: 4% 0% 5% 0%;
+	border-bottom: 35px solid #244667;
+}
+
+.left *, .right * {
+	margin-left: 15%;
+}
+
+.left * {
+	margin-left: 28%;
+}
+
+.left {
+	border-right: 23px solid #244667;
+}
+
+.right {
+	border-left: 23px solid #244667;
+}
+
+span.addtobag {
+	background-color: skyblue;
+	border: 2px solid #244667;
+}
+
+input {
+	width: 25%;
+	height: 10%;
+	margin: 2% 0% 2% 6%;
+}
+
+img {
+	display: block;
+}

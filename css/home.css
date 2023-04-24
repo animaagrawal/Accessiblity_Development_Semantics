@@ -1,0 +1,11 @@
+blockquote {
+	display: inline-block;
+	width: 30%;
+	font-size: 175%;
+	text-align: right;
+	font-style: italic;
+}
+
+main p {
+	margin-left: 2%;
+}

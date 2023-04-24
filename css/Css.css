@@ -1,0 +1,57 @@
+body {
+	background-color: #B8CCDD;
+	color: #000000;
+}
+
+header, .header {
+	background-color: #244667;
+	color: #FFF;
+}
+
+nav, .nav {
+	background-color: #799CBF;
+	color: #000000;
+	border: 5px solid #244667;
+}
+
+main, .main {
+	margin-left: 5%;
+}
+
+form {
+	background-color: #62809A;
+	width: 40%;
+	margin: 1% 0% 5% 0%;
+	padding: 3% 0% 2% 5%;
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+}
+
+textarea {
+	width: 50%;
+}
+
+input {
+	width: 25%;
+}
+h2 {
+	font-size: 300%;
+}
+
+footer, .footer {
+	background-color: #42678B;
+	color: white;
+}
+
+.hidden {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%) ;
+	clip-path: inset(50%);
+	padding: 0;
+	border: 0;
+	height: 1px;
+	width: 1px;
+	white-space: nowrap;
+	overflow: hidden;
+}

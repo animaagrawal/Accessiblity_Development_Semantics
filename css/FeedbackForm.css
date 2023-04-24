@@ -1,0 +1,14 @@
+h2+p {
+	font-size: 175%;
+	width: 30%;
+}
+
+label {
+	font-size: 150%;
+	padding: 1%;
+}
+
+button[type='submit'] {
+	display: inline-block;
+	margin: 1% 0% 5% 10%;
+}
